@@ -39,7 +39,7 @@ _**SCREENS**_
 **AllChips** -> Includes alL chip composables for all screens.
 
 
-**Screens **-> Includes Bottom Bar and manages navigation between MainScreenNavigation, SearchScreenNavigation and CartScreenNavigation.
+**Screens**-> Includes Bottom Bar and manages navigation between MainScreenNavigation, SearchScreenNavigation and CartScreenNavigation.
 
 **MainScreenNavigation** -> Manages navigation between MainPage, CategoryPage, CategoryDetailPage and MovieDetailPage
 
