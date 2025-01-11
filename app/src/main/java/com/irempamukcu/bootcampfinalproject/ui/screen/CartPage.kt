@@ -124,7 +124,7 @@ fun CartPage(cartPageViewModel: CartPageViewModel, navController: NavController)
                 verticalAlignment = Alignment.Top){
 
                 Column (verticalArrangement = Arrangement.SpaceEvenly){
-                    Text(text= "Toplam Tutar",
+                    Text(text= stringResource(R.string.total_amount),
                         fontFamily = funnelsans,
                         fontWeight = FontWeight.Bold,
                         fontSize = 24.sp,

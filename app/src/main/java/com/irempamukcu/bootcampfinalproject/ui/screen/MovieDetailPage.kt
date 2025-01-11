@@ -212,7 +212,14 @@ fun MovieDetailPage(movie: Movies, movieDetailPageViewModel: MovieDetailPageView
             )
 
             Text(
-                text = movie.category,
+                text = when (movie.category) {
+                    "Drama" -> stringResource(R.string.drama)
+                    "Action" -> stringResource(R.string.action)
+                    "Science Fiction" -> stringResource(R.string.sci_fi)
+                    "Fantastic" -> stringResource(R.string.fantastic)
+                    else -> stringResource(R.string.unknown_category)
+                },
+
                 fontFamily = funnelsansitalic,
                 fontSize = 18.sp,
                 color = white
